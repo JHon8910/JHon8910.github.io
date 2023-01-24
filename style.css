@@ -64,6 +64,7 @@ body {
     margin: auto;
     color: #0086b3;
     padding-bottom:-25vh;
+    height: 90vh;
 }
 
 h1{
@@ -77,10 +78,17 @@ h1:hover {
     color:pink;
 }
 
+h3{
+    color: #4d79ff;
+}
+
+ul{
+    color: #4d79ff;
+}
+
 #about h3{
     margin:0;
     padding:0;
-    color: #4d79ff;
 }
 
 #about #bubble1{
@@ -112,6 +120,7 @@ h1:hover {
     border-color: pink;
     border-width: 8px;
     border-style: solid;
+    z-index: -1;
 }
 
 #about #bubble2 p{
@@ -155,4 +164,22 @@ h1:hover {
     width: 50%;
     margin: auto;
     text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+    margin: auto;
+}
+
+.guitar:hover + .hide{
+    display: block;
+    margin: auto;
+}
+
+#funFacts p{
+    color: #4d79ff;
 }
