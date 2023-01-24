@@ -1,0 +1,158 @@
+* {
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #e6ffff;
+}
+
+.container{
+    position: fixed; 
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    top: 0px;
+}
+
+.menu{
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.menu .button{
+    padding: 2px;
+    border: 2px black solid;
+}
+
+.menu a:hover{
+    color: #cc66ff;
+}
+
+#header{
+    background-image: url('bubble.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top:20%;
+    padding-bottom:25%;
+    height: 200px;
+    top: 100px;
+    margin: 0px;
+}
+
+#header h1{
+    text-align: center;
+    word-spacing: 1.5em;
+    font-size: 80px;
+    color: #002699;
+}
+
+#pfp{
+    float: right;
+    height: 30vh; 
+    border-radius: 50%;
+    border-color: grey;
+    border-width: 8px;
+    border-style: solid;
+}
+
+#about{
+    width: 50%;
+    margin: auto;
+    color: #0086b3;
+    padding-bottom:-25vh;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    color: #0086b3;
+    font-size: 65px;
+}
+
+h1:hover {
+    color:pink;
+}
+
+#about h3{
+    margin:0;
+    padding:0;
+    color: #4d79ff;
+}
+
+#about #bubble1{
+    height: 30vh;
+    width: 30vh; 
+    border-radius: 50%;
+    border-color: pink;
+    border-width: 8px;
+    border-style: solid;
+}
+
+#about #bubble1 p{
+    text-align:center;
+    font-size-adjust: 0.56;
+    text-size-adjust: auto;
+}
+
+#about #bubble1 h3{
+    text-align:center
+}
+
+#about #bubble2{
+    position: relative;
+    left: 30vh;
+    top:-15vh;
+    height: 30vh;
+    width: 30vh; 
+    border-radius: 50%;
+    border-color: pink;
+    border-width: 8px;
+    border-style: solid;
+}
+
+#about #bubble2 p{
+    text-align:center;
+    font-size-adjust: 0.56;
+    text-size-adjust: auto;
+}
+
+#about #bubble2 h3{
+    text-align:center
+}
+
+#about #bubble3{
+    position: relative;
+    left: 5vh;
+    top:-25vh;
+    height: 30vh;
+    width: 30vh; 
+    border-radius: 50%;
+    border-color: pink;
+    border-width: 8px;
+    border-style: solid;
+}
+
+#about #bubble3 ul{
+    text-align:center;
+    font-size-adjust: 0.56;
+    text-size-adjust: auto;
+}
+
+#about #bubble3 h3{
+    text-align:center;
+}
+
+.factContainer{
+    width: 50%;
+    margin: auto;
+}
+
+.contact{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
